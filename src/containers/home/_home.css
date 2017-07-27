@@ -1,0 +1,26 @@
+.repo--grid {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.repoItem {
+  margin-bottom: 1px;
+  width: calc(33.3% - .667px);
+  background: #fff;
+  position: relative;
+  margin-right: 1px;
+}
+
+.thumbnail {
+  height: 100%;
+  width: 300px;
+}
+
+.ellipsis{
+  max-height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

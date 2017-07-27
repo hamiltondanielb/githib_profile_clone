@@ -8,7 +8,7 @@ const App = () => (
       <Link to="/">Home</Link>
     </header>
 
-    <main>
+    <main className="container">
       <Route exact path="/" component={Home} />
     </main>
   </div>
